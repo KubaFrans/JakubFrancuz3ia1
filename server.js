@@ -1,6 +1,5 @@
 var express = require("express")
 var app = express()
-const PORT = 3000;
 var bodyParser = require("body-parser")
 var path = require("path")
 app.use(bodyParser.urlencoded({ extended: true }));
